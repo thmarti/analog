@@ -13,9 +13,10 @@ export default defineConfig(({ mode }) => ({
     mainFields: ['module'],
   },
   plugins: [
-    analog({
-      ssr: false, // Disabled for StackBlitz
-    }),
+    // Disabled for StackBlitz
+    // analog({
+    //   ssr: false,
+    // }),
   ],
   test: {
     globals: true,

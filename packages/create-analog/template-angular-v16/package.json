@@ -47,5 +47,8 @@
     "typescript": "~5.0.2",
     "vite": "^4.4.8",
     "vitest": "^0.32.0"
+  },
+  "stackblitz": {
+    "startCommand": "vite"
   }
 }
