@@ -42,7 +42,7 @@
     "@angular/cli": "^16.2.0",
     "@angular/compiler-cli": "^16.2.0",
     "@nx/vite": "^17.0.0",
-    "nx": "^17.0.0",
+    "nx": "~16.8.1",
     "jsdom": "^22.1.0",
     "typescript": "~5.0.2",
     "vite": "^4.4.8",
