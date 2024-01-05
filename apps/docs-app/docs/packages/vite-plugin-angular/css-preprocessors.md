@@ -58,7 +58,9 @@ export default defineConfig(({ mode }) => {
     // ... other config
     plugins: [
       angular({
-        inlineStylesExtension: 'scss',
+        vite: {
+          inlineStylesExtension: 'scss',
+        },
       }),
     ],
   };
